@@ -10,9 +10,9 @@ function Links() {
 
   return (
     <div className="container">
-      <div className="row grid gap-0.5 link-container">
+      <div className="row link-container">
         {links.map((link) => (
-          <div key={link.id} className="col-sm-12 col-md-6 col-lg-3 link">
+          <div key={link.id} className="col-6 col-md-6 col-lg-3 link">
             <h2>
               <a href={link.link}>{link.name}</a>
             </h2>
