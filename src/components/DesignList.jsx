@@ -14,7 +14,7 @@ function DesignList() {
     <div className="container">
       <div className="row">
         <div className="design-section">
-          <h4 id="design">Design</h4>
+          <h4 id="design-section">Design</h4>
         </div>
         {designs.map((design) => (
           <DesignCard key={design.id} design={design}/>
