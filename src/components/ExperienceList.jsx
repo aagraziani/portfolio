@@ -1,16 +1,17 @@
-import { useState, useEffect } from 'react';
-import { experience as data } from '../data/experience';
-import { ExperienceCard } from './ExperienceCard';
+import { useState, useEffect } from "react";
+import { experience as data } from "../data/experience";
+import { ExperienceCard } from "./ExperienceCard";
 
 function ExperinceList() {
+  const [experience, setExperience] = useState([]);
 
-    const [experience, setExperience] = useState([]);
+  useEffect(() => {
+    setExperience(data);
+  }, []);
 
-    useEffect(() => {
-        setExperience(data);
-    }, []);
+  return (
 
-    return(
+    
         <div className="container">
             <div className="row">
                 <div className='experience'>
@@ -21,7 +22,7 @@ function ExperinceList() {
                 <ExperienceCard key={job.id} job={job} />
             ))}
         </div>
-    )
-};
+  );
+}
 
 export default ExperinceList;

@@ -3,6 +3,7 @@ import {
   BsGeoAltFill,
   BsFillEnvelopeFill,
   BsLinkedin,
+  BsFillPersonFill
 } from "react-icons/bs";
 import ExperinceList from "./ExperienceList";
 
@@ -23,6 +24,9 @@ function AboutMe() {
             />
           </div>
           <div className="about-me-contact col-sm-12 col-md-8 col-lg-8">
+            <p>
+              <BsFillPersonFill /> Who am I: full stack developer with strong backgroun in design
+            </p>
             <p>
               <BsGeoAltFill /> Where do I live: Retiro, Buenos Aires, Argentina
             </p>

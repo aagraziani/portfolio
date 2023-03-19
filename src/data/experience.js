@@ -1,6 +1,9 @@
 export const experience = [
     {
         id: 0,
+        heading_id: "HeadingOne",
+        data_bs_target: "#collapseOne",
+        aria_controls: "collapseOne",
         company: "PwC Argentina",
         dates: "03/2021 - actually",
         experience_level: "Ssr analyst - Identity and access management",
@@ -33,6 +36,9 @@ export const experience = [
     },
     {
         id: 1,
+        heading_id: "HeadingTwo",
+        data_bs_target: "#collapseTwo",
+        aria_controls: "collapseTwo",
         company: "Cronista Comercial - cronista.com",
         dates: "05/2020 - 03/2021",
         experience_level: "Design and front end development at cronista.com",
@@ -65,6 +71,9 @@ export const experience = [
     },
     {
         id: 2,
+        heading_id: "HeadingThree",
+        data_bs_target: "#collapseThree",
+        aria_controls: "collapseThree",
         company: " Cronista Comercial",
         experience_level: "Sr graphic designer",
         tasks: [
