@@ -75,6 +75,7 @@ export const experience = [
         data_bs_target: "#collapseThree",
         aria_controls: "collapseThree",
         company: " Cronista Comercial",
+        dates: "03/2011 - 05-2020",
         experience_level: "Sr graphic designer",
         tasks: [
             {
