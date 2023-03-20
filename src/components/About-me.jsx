@@ -6,6 +6,7 @@ import {
   BsFillPersonFill
 } from "react-icons/bs";
 import ExperinceList from "./ExperienceList";
+import KnowledgeList from './KnowledgeList';
 
 function AboutMe() {
   return (
@@ -44,6 +45,7 @@ function AboutMe() {
 
         <div className="row">
         <ExperinceList />
+        <KnowledgeList />
         </div>
 
         <div>

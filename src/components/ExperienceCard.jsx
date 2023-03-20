@@ -39,7 +39,7 @@ export function ExperienceCard({ job }) {
             aria-labelledby={job.heading_id}
             data-bs-parent="#accordionExample"
           >
-            <div class="accordion-body">
+            <div className="accordion-body">
             <h6>{job.dates}</h6>
             <h6>{job.experience_level}</h6>
             <ul>

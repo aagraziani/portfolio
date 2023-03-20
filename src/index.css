@@ -177,6 +177,17 @@ div .job-description ul li {
   font-size: 1em;
 }
 
+div .knowledge-container {
+  padding-top: 15px;
+}
+
+#knowledge {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  text-align: left;
+}
+
 /* footer */
 
 div .footer {
