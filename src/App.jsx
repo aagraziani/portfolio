@@ -2,6 +2,7 @@ import DesignList from './components/DesignList';
 import Links from './components/Links';
 import Footer from './components/Footer';
 import AboutMe from './components/About-me';
+import ProgrammingList from './components/ProgrammingList';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
           <h1 id='top'>Agustin Graziani | Portfolio</h1>
         </div>
         <Links />
+        <ProgrammingList />
         <DesignList />
         <AboutMe />
         <Footer />
